@@ -7,6 +7,9 @@
     "translations" : [ {
       "title" : "名詞",
       "forms" : [ "白" ]
+    }, {
+      "title" : "形容詞",
+      "forms" : [ "白い" ]
     } ],
     "tags" : [ ],
     "contents" : [ ],
@@ -20,6 +23,9 @@
     "translations" : [ {
       "title" : "名詞",
       "forms" : [ "黒" ]
+    }, {
+      "title" : "形容詞",
+      "forms" : [ "黒い" ]
     } ],
     "tags" : [ ],
     "contents" : [ ],
@@ -33,6 +39,9 @@
     "translations" : [ {
       "title" : "名詞",
       "forms" : [ "赤" ]
+    }, {
+      "title" : "形容詞",
+      "forms" : [ "赤い" ]
     } ],
     "tags" : [ ],
     "contents" : [ ],
@@ -621,12 +630,15 @@
     } ],
     "tags" : [ ],
     "contents" : [ ],
-    "variations" : [ ],
+    "variations" : [ {
+      "title" : "現在形",
+      "form" : "eu"
+    } ],
     "relations" : [ ]
   }, {
     "entry" : {
       "id" : 49,
-      "form" : "ogu"
+      "form" : "og"
     },
     "translations" : [ {
       "title" : "動詞",
@@ -639,7 +651,7 @@
   }, {
     "entry" : {
       "id" : 50,
-      "form" : "egil"
+      "form" : "el"
     },
     "translations" : [ {
       "title" : "動詞",
@@ -665,7 +677,7 @@
   }, {
     "entry" : {
       "id" : 52,
-      "form" : "ida"
+      "form" : "id"
     },
     "translations" : [ {
       "title" : "動詞",
@@ -678,7 +690,7 @@
   }, {
     "entry" : {
       "id" : 53,
-      "form" : "eku"
+      "form" : "epok"
     },
     "translations" : [ {
       "title" : "動詞",
@@ -704,7 +716,7 @@
   }, {
     "entry" : {
       "id" : 55,
-      "form" : "oli"
+      "form" : "ol"
     },
     "translations" : [ {
       "title" : "動詞",
@@ -717,7 +729,7 @@
   }, {
     "entry" : {
       "id" : 56,
-      "form" : "enna"
+      "form" : "exan"
     },
     "translations" : [ {
       "title" : "動詞",
@@ -769,7 +781,7 @@
   }, {
     "entry" : {
       "id" : 60,
-      "form" : "elou"
+      "form" : "elov"
     },
     "translations" : [ {
       "title" : "動詞",
@@ -782,7 +794,7 @@
   }, {
     "entry" : {
       "id" : 61,
-      "form" : "umis"
+      "form" : "umic"
     },
     "translations" : [ {
       "title" : "動詞",
@@ -795,7 +807,7 @@
   }, {
     "entry" : {
       "id" : 62,
-      "form" : "orhi"
+      "form" : "orh"
     },
     "translations" : [ {
       "title" : "動詞",
@@ -808,7 +820,7 @@
   }, {
     "entry" : {
       "id" : 63,
-      "form" : "igi"
+      "form" : "igim"
     },
     "translations" : [ {
       "title" : "動詞",
@@ -821,7 +833,7 @@
   }, {
     "entry" : {
       "id" : 64,
-      "form" : "ehavi"
+      "form" : "ehav"
     },
     "translations" : [ {
       "title" : "動詞",
@@ -847,7 +859,7 @@
   }, {
     "entry" : {
       "id" : 66,
-      "form" : "elga"
+      "form" : "elg"
     },
     "translations" : [ {
       "title" : "動詞",
@@ -860,7 +872,7 @@
   }, {
     "entry" : {
       "id" : 67,
-      "form" : "eki"
+      "form" : "ok"
     },
     "translations" : [ {
       "title" : "動詞",
@@ -886,7 +898,7 @@
   }, {
     "entry" : {
       "id" : 69,
-      "form" : "izei"
+      "form" : "izej"
     },
     "translations" : [ {
       "title" : "動詞",
@@ -899,7 +911,7 @@
   }, {
     "entry" : {
       "id" : 70,
-      "form" : "oreu"
+      "form" : "or"
     },
     "translations" : [ {
       "title" : "動詞",
@@ -912,7 +924,7 @@
   }, {
     "entry" : {
       "id" : 71,
-      "form" : "erko"
+      "form" : "erk"
     },
     "translations" : [ {
       "title" : "動詞",
@@ -925,7 +937,7 @@
   }, {
     "entry" : {
       "id" : 72,
-      "form" : "octi"
+      "form" : "oct"
     },
     "translations" : [ {
       "title" : "動詞",
@@ -938,7 +950,7 @@
   }, {
     "entry" : {
       "id" : 73,
-      "form" : "ipe"
+      "form" : "uper"
     },
     "translations" : [ {
       "title" : "動詞",
@@ -1046,7 +1058,7 @@
     },
     "translations" : [ {
       "title" : "代名詞",
-      "forms" : [ "あなた" ]
+      "forms" : [ "彼" ]
     } ],
     "tags" : [ ],
     "contents" : [ ],
@@ -1247,6 +1259,32 @@
     "contents" : [ ],
     "variations" : [ ],
     "relations" : [ ]
+  }, {
+    "entry" : {
+      "id" : 97,
+      "form" : "om"
+    },
+    "translations" : [ {
+      "title" : "名詞",
+      "forms" : [ "大地，土" ]
+    } ],
+    "tags" : [ ],
+    "contents" : [ ],
+    "variations" : [ ],
+    "relations" : [ ]
+  }, {
+    "entry" : {
+      "id" : 98,
+      "form" : "edv"
+    },
+    "translations" : [ {
+      "title" : "動詞",
+      "forms" : [ "溶ける", "溶かす" ]
+    } ],
+    "tags" : [ ],
+    "contents" : [ ],
+    "variations" : [ ],
+    "relations" : [ ]
   } ],
   "zpdic" : {
     "alphabetOrder" : "",
@@ -1267,5 +1305,5 @@
       "relations" : [ ]
     }
   },
-  "snoj" : "@FALL_THROUGH\n\nPUNCTUATION = \".\" | \",\" | \"!\" | \"?\";\nvowel = \"a\" | \"e\" | \"i\" | \"o\" | \"u\" | \"y\";\ndiphthong = \"ai\" | \"au\" | \"ei\" | \"eu\" | \"oi\" | \"ou\";\nconsonant = \"p\" | \"b\" | \"t\" | \"d\" | \"k\" | \"g\" | \"v\" | \"c\" | \"s\" | \"x\" | \"sh\" | \"j\" | \"h\" | \"z\" | \"ds\" | \"ch\" | \"dz\" | \"m\" | \"n\" | \"r\" | \"l\";\n\n^ \"\" (vowel | diphthong) -> /ʔ/ $;\n\"hi\" -> /çi/;\n\n\"ai\" -> /ai̯/;\n\"au\" -> /au̯/;\n\"ei\" -> /eɪ̯/;\n\"eu\" -> /eu̯/;\n\"oi\" -> /oi̯/;\n\"ou\" -> /ou̯/;\n\n\"y\" -> /ə/;\n\n\"sh\" -> /ʒ/;\n\"ds\" -> /d͡z/;\n\"ch\" -> /t͡ʃ/;\n\"dz\" -> /d͡ʒ/;\n\n\"v\" -> /β/;\n\"c\" -> /s/;\n\"s\" -> /z/;\n\"x\" -> /ʃ/;\n\"h\" -> /x/;\n\"z\" -> /t͡s/;\n\"r\" -> /ɾ/;"
+  "snoj" : "@FALL_THROUGH\n\nPUNCTUATION = \".\" | \",\" | \"!\" | \"?\";\nvowel = \"a\" | \"e\" | \"i\" | \"o\" | \"u\" | \"y\";\ndiphthong = \"ai\" | \"au\" | \"ei\" | \"eu\" | \"oi\" | \"ou\";\nconsonant = \"p\" | \"b\" | \"t\" | \"d\" | \"k\" | \"g\" | \"v\" | \"c\" | \"s\" | \"x\" | \"sh\" | \"j\" | \"h\" | \"z\" | \"ds\" | \"ch\" | \"dz\" | \"m\" | \"n\" | \"r\" | \"l\";\n\n\"v\" ^ -> /u/\nvowel \"v\" vowel -> $ /β/ $;\n\"hi\" -> /çi/;\n^ \"\" (vowel | diphthong) -> /ʔ/ $;\n\n\"ai\" -> /ai̯/;\n\"au\" -> /au̯/;\n\"ei\" -> /eɪ̯/;\n\"eu\" -> /eu̯/;\n\"oi\" -> /oi̯/;\n\"ou\" -> /ou̯/;\n\n\"y\" -> /ə/;\n\n\"sh\" -> /ʒ/;\n\"ds\" -> /d͡z/;\n\"ch\" -> /t͡ʃ/;\n\"dz\" -> /d͡ʒ/;\n\n\"c\" -> /s/;\n\"s\" -> /z/;\n\"x\" -> /ʃ/;\n\"h\" -> /x/;\n\"z\" -> /t͡s/;\n\"r\" -> /ɾ/;"
 }

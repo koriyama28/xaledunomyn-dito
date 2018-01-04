@@ -544,7 +544,7 @@
   }, {
     "entry" : {
       "id" : 42,
-      "form" : "chabi"
+      "form" : "txabi"
     },
     "translations" : [ {
       "title" : "形容詞",
@@ -1305,5 +1305,5 @@
       "relations" : [ ]
     }
   },
-  "snoj" : "@FALL_THROUGH\n\nPUNCTUATION = \".\" | \",\" | \"!\" | \"?\";\nvowel = \"a\" | \"e\" | \"i\" | \"o\" | \"u\" | \"y\";\ndiphthong = \"ai\" | \"au\" | \"ei\" | \"eu\" | \"oi\" | \"ou\";\nconsonant = \"p\" | \"b\" | \"t\" | \"d\" | \"k\" | \"g\" | \"v\" | \"c\" | \"s\" | \"x\" | \"sh\" | \"j\" | \"h\" | \"z\" | \"ds\" | \"ch\" | \"dz\" | \"m\" | \"n\" | \"r\" | \"l\";\n\n\"v\" ^ -> /u/\nvowel \"v\" vowel -> $ /β/ $;\n\"hi\" -> /çi/;\n^ \"\" (vowel | diphthong) -> /ʔ/ $;\n\n\"ai\" -> /ai̯/;\n\"au\" -> /au̯/;\n\"ei\" -> /eɪ̯/;\n\"eu\" -> /eu̯/;\n\"oi\" -> /oi̯/;\n\"ou\" -> /ou̯/;\n\n\"y\" -> /ə/;\n\n\"sh\" -> /ʒ/;\n\"ds\" -> /d͡z/;\n\"ch\" -> /t͡ʃ/;\n\"dz\" -> /d͡ʒ/;\n\n\"c\" -> /s/;\n\"s\" -> /z/;\n\"x\" -> /ʃ/;\n\"h\" -> /x/;\n\"z\" -> /t͡s/;\n\"r\" -> /ɾ/;"
+  "snoj" : "@FALL_THROUGH\n\nPUNCTUATION = \".\" | \",\" | \"!\" | \"?\";\nvowel = \"a\" | \"e\" | \"i\" | \"o\" | \"u\" | \"y\";\ndiphthong = \"ai\" | \"au\" | \"ei\" | \"eu\" | \"oi\" | \"ou\";\nconsonant = \"p\" | \"b\" | \"t\" | \"d\" | \"k\" | \"g\" | \"v\" | \"c\" | \"s\" | \"x\" | \"dz\" | \"j\" | \"h\" | \"z\" | \"ds\" | \"tx\" | \"ddz\" | \"m\" | \"n\" | \"r\" | \"l\";\n\n\"v\" ^ -> /u/\nvowel \"v\" vowel -> $ /β/ $;\n\"hi\" -> /çi/;\n^ \"\" (vowel | diphthong) -> /ʔ/ $;\n\n\"ddz\" -> /d͡ʒ/;\n\n\"ai\" -> /ai̯/;\n\"au\" -> /au̯/;\n\"ei\" -> /eɪ̯/;\n\"eu\" -> /eu̯/;\n\"oi\" -> /oi̯/;\n\"ou\" -> /ou̯/;\n\n\"y\" -> /ə/;\n\n\"dz\" -> /ʒ/;\n\"ds\" -> /d͡z/;\n\"tx\" -> /t͡ʃ/;\n\n\"c\" -> /s/;\n\"s\" -> /z/;\n\"x\" -> /ʃ/;\n\"h\" -> /x/;\n\"z\" -> /t͡s/;\n\"r\" -> /ɾ/;"
 }

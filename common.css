@@ -7,6 +7,10 @@
 	font-family: "Cirlipa", sans-serif;
 }
 
+.latin {
+	font-family: sans-serif;
+}
+
 table, td, th, tr {
 	border: 2px solid black;
 	border-collapse: collapse;

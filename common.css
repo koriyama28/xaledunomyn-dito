@@ -1,0 +1,16 @@
+@font-face {
+	font-family: "Cirlipa";
+	src: url("http://jurliyuuri.com/fonts/cirlxarli_liparxe_1.woff"); format('woff');
+}
+
+.cirlipa {
+	font-family: "Cirlipa", sans-serif;
+}
+
+table, td, th, tr {
+	border: 2px solid black;
+	border-collapse: collapse;
+	padding-left: 10px;
+	padding-right: 10px;
+	text-align: center;
+}

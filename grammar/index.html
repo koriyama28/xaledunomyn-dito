@@ -2,53 +2,316 @@
 <html lang="ja">
 <head>
 <meta charset="utf-8">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/leipzig/latest/leipzig.min.css">
 <link rel="stylesheet" href="../common.css">
 <script src="../common.js"></script>
-<title>リスターメ語文法書</title>
+<title>リスターメ語文法</title>
 </head>
 <body>
-<button type="button" onclick="toggleFont()">フォント切り替え</button>
-<div id="main" class="cirlipa">
-<h1>リスターメ語文法書</h1>
+<span id="main" class="latin">
+<h1>リスターメ語文法</h1>
 <h2>音韻</h2>
-<h3>子音</h3>
-<table>
-<tr><th> </th><th>唇音</th><th>歯茎音</th><th>後部歯茎音</th><th>硬口蓋音</th><th>軟口蓋音</th></tr>
-<tr><th>破裂音</th><td>p <div class="latin">/p/</div> b <div class="latin">/b/</div></td><td>t <div class="latin">/t/</div> d <div class="latin">/d/</div></td><td> </td><td> </td><td>k <div class="latin">/k/</div> g <div class="latin">/g/</div></td></tr>
-<tr><th>摩擦音</th><td>v <div class="latin">/β/</div></td><td>c <div class="latin">/s/</div> s <div class="latin">/z/</div></td><td>x <div class="latin">/ʃ/</div> X <div class="latin">/ʒ/</div></td><td>j <div class="latin">/j/</div></td><td>h <div class="latin">/x/</div></td></tr>
-<tr><th>破擦音</th><td> </td><td>z <div class="latin">/ts/</div> ds <div class="latin">/dz/</div></td><td>tx <div class="latin">/tʃ/</div> dX <div class="latin">/dʒ/</div></td><td> </td><td> </td></tr>
-<tr><th>鼻音</th><td>m <div class="latin">/m/</div></td><td>n <div class="latin">/n/</div></td><td> </td><td> </td><td> </td></tr>
-<tr><th>はじき音</th><td> </td><td>R <div class="latin">/ɾ/</div></td><td> </td><td> </td><td> </td></tr>
-<tr><th>側面音</th><td> </td><td>l <div class="latin">/l/</div></td><td> </td><td> </td><td> </td></tr>
-</table>
 <h3>母音</h3>
+<p>母音は以下の表の通り。</p>
+
 <table>
-<tr><th></th><th>前舌</th><th>中舌</th><th>後舌</th></tr>
-<tr><th>狭</th><td>i <div class="latin">/i/</div></td><td></td><td>u <div class="latin">/u/</div></td></tr>
-<tr><th>中</th><td>e <div class="latin">/e/</div></td><td>y <div class="latin">/ə/</div></td><td>o <div class="latin">/o/</div></td></tr>
-<tr><th>広</th><td> </td><td> </td><td>a <div class="latin">/a/</div></td></tr>
+	<tr>
+		<th> </th>
+		<th>前舌</th>
+		<th>中舌</th>
+		<th>後舌</th>
+	</tr>
+	<tr>
+		<th>狭</th>
+		<td>i <span class="latin">[i]</span></td>
+		<td> </td>
+		<td>u <span class="latin">[u]</span></td>
+	</tr>
+	<tr>
+		<th>中</th>
+		<td>e <span class="latin">[e]</span></td>
+		<td>y <span class="latin">[ə]</span></td>
+		<td>o <span class="latin">[o]</span></td>
+	</tr>
+	<tr>
+		<th>広</th>
+		<td> </td>
+		<td> </td>
+		<td>a <span class="latin">[ɑ]</span></td>
+	</tr>
 </table>
+
+<h3>子音</h3>
+
+<table>
+	<tr>
+		<th> </th>
+		<th>唇音</th>
+		<th>歯茎音</th>
+		<th>後部歯茎音</th>
+		<th>硬口蓋音</th>
+		<th>軟口蓋音</th>
+	</tr>
+	<tr>
+		<th>破裂音</th>
+		<td>p <span class="latin">[p]</span> b <span class="latin">[b]</span></td>
+		<td>t <span class="latin">[t]</span> d <span class="latin">[d]</span></td>
+		<td> </td>
+		<td> </td>
+		<td>k <span class="latin">[k]</span> g <span class="latin">[g]</span></td>
+	</tr>
+	<tr>
+		<th>摩擦音</th>
+		<td>v <span class="latin">[β]</span></td>
+		<td>c <span class="latin">[s]</span> s <span class="latin">[z]</span></td>
+		<td>x <span class="latin">[ʃ]</span> X <span class="latin">[ʒ]</span></td>
+		<td>j <span class="latin">[j]</span></td>
+		<td>h <span class="latin">[x]</span></td>
+	</tr>
+	<tr>
+		<th>破擦音</th>
+		<td> </td>
+		<td>z <span class="latin">[ts]</span> ds <span class="latin">[dz]</span></td>
+		<td>tx <span class="latin">[tʃ]</span> dX <span class="latin">[dʒ]</span></td>
+		<td> </td>
+		<td> </td>
+	</tr>
+	<tr>
+		<th>鼻音</th>
+		<td>m <span class="latin">[m]</span></td>
+		<td>n <span class="latin">[n]</span></td>
+		<td> </td>
+		<td> </td>
+		<td> </td>
+	</tr>
+	<tr>
+		<th>はじき音</th>
+		<td> </td>
+		<td>R <span class="latin">[ɾ]</span></td>
+		<td> </td>
+		<td> </td>
+		<td> </td>
+	</tr>
+	<tr>
+		<th>側面音</th>
+		<td> </td>
+		<td>l <span class="latin">[l]</span></td>
+		<td> </td>
+		<td> </td>
+		<td> </td>
+	</tr>
+</table>
+
 <h2>形態</h2>
-<h3>名詞</h3>
+<h3>母音交替</h3>
+<p>名詞，動詞の屈折において規則的な母音交替が起きる。以下はその表である。</p>
+
 <table>
-<tr><th></th><th>単数</th><th>複数</th><th>母音強度</th></tr>
-<tr><td>絶対格</td>arto<td></td><td>artux</td><td>2,3</td></tr>
-<tr><td>能格</td><td>artoga</td><td>artuxa</td><td>3</td></tr>
-<tr><td>属格</td><td>artyn</td><td>artuxyn</td><td>1</td></tr>
-<tr><td>与格</td><td>artuc</td><td>artuxus</td><td>2</td></tr>
-<tr><td>具格</td><td>artom</td><td>artuxam</td><td>3</td></tr>
-<tr><td>欠格</td><td>artylo</td><td>artuxylo</td><td>1</td></tr>
-<tr><td>副詞格</td><td>artuk</td><td>artuxyk</td><td>2</td></tr>
-<tr><td>共格</td><td>artos</td><td>artuxas</td><td>3</td></tr>
-<tr><td>位格</td><td>artoh</td><td>artuxah</td><td>3</td></tr>
-<tr><td>奪格</td><td>artod</td><td>artuxad</td><td>3</td></tr>
-<tr><td>向格</td><td>artogi</td><td>artuxagi</td><td>3</td></tr>
-<tr><td>限格</td><td>artob</td><td>artuxab</td><td>3</td></tr>
+	<tr>
+		<th>段階</th>
+		<th>前舌</th>
+		<th>中舌</th>
+		<th>後舌</th>
+	</tr>
+	<tr>
+		<th><span class="latin">1</span></th>
+		<td>y</td>
+		<td>y</td>
+		<td>y</td>
+	</tr>
+	<tr>
+		<th><span class="latin">2</span></th>
+		<td>i</td>
+		<td>a</td>
+		<td>u</td>
+	</tr>
+	<tr>
+		<th><span class="latin">3</span></th>
+		<td>e</td>
+		<td>a</td>
+		<td>o</td>
+	</tr>
+	<tr>
+		<th><span class="latin">4</span></th>
+		<td>ej</td>
+		<td>a</td>
+		<td>ov</td>
+	</tr>
 </table>
+
+<h3>名詞</h3>
+
+<table>
+	<tr>
+		<th></th>
+		<th>母音幹</th>
+		<th>子音幹</th>
+		<th>母音交替</th>
+	</tr>
+	<tr>
+		<th>絶対格</th>
+		<td>-<span class="ending">∅</span></td>
+		<td>-<span class="ending">i</span></td>
+		<td><span class="latin">2,3</span></td>
+	</tr>
+	<tr>
+		<th>能格</th>
+		<td>-<span class="ending">ga</span></td>
+		<td>-<span class="ending">o</span></td>
+		<td><span class="latin">3</span></td>
+	</tr>
+	<tr>
+		<th>属格</th>
+		<td>-<span class="ending">n</span></td>
+		<td>-<span class="ending">in</span></td>
+		<td><span class="latin">1</span></td>
+	</tr>
+	<tr>
+		<th>与格</th>
+		<td>-<span class="ending">c</span></td>
+		<td>-<span class="ending">uc</span></td>
+		<td><span class="latin">2</span></td>
+	</tr>
+	<tr>
+		<th>具格</th>
+		<td>-<span class="ending">m</span></td>
+		<td>-<span class="ending">um</span></td>
+		<td><span class="latin">3</span></td>
+	</tr>
+	<tr>
+		<th>欠格</th>
+		<td>-<span class="ending">lo</span></td>
+		<td>-<span class="ending">ylo</span></td>
+		<td><span class="latin">1</span></td>
+	</tr>
+	<tr>
+		<th>副詞格</th>
+		<td>-<span class="ending">k</span></td>
+		<td>-<span class="ending">ok</span></td>
+		<td><span class="latin">2</span></td>
+	</tr>
+	<tr>
+		<th>共格</th>
+		<td>-<span class="ending">sa</span></td>
+		<td>-<span class="ending">as</span></td>
+		<td><span class="latin">3</span></td>
+	</tr>
+	<tr>
+		<th>位格</th>
+		<td>-<span class="ending">h</span></td>
+		<td>-<span class="ending">eh</span></td>
+		<td><span class="latin">3</span></td>
+	</tr>
+	<tr>
+		<th>奪格</th>
+		<td>-<span class="ending">der</span></td>
+		<td>-<span class="ending">eder</span></td>
+		<td><span class="latin">3</span></td>
+	</tr>
+	<tr>
+		<th>向格</th>
+		<td>-<span class="ending">ri</span></td>
+		<td>-<span class="ending">eri</span></td>
+		<td><span class="latin">3</span></td>
+	</tr>
+	<tr>
+		<th>限格</th>
+		<td>-<span class="ending">ba</span></td>
+		<td>-<span class="ending">eba</span></td>
+		<td><span class="latin">3</span></td>
+	</tr>
+</table>
+
+<table>
+	<tr>
+		<th> </th>
+		<th>単数</th>
+		<th>複数</th>
+	</tr>
+	<tr>
+		<th>絶対格</th>
+		<td>art<span class="l3">o</span></td>
+		<td>art<span class="l2">u</span>x<span class="ending">i</span></td>
+	</tr>
+	<tr>
+		<th>能格</th>
+		<td>art<span class="l3">o</span><span class="ending">ga</span></td>
+		<td>artux<span class="ending">o</span></td>
+	</tr>
+	<tr>
+		<th>属格</th>
+		<td>art<span class="l1">y</span><span class="ending">n</span></td>
+		<td>artux<span class="ending">in</span></td>
+	</tr>
+	<tr>
+		<th>与格</th>
+		<td>art<span class="l2">u</span><span class="ending">c</span></td>
+		<td>artux<span class="ending">uc</span></td>
+	</tr>
+	<tr>
+		<th>具格</th>
+		<td>art<span class="l3">o</span><span class="ending">m</span></td>
+		<td>artux<span class="ending">um</span></td>
+	</tr>
+	<tr>
+		<th>欠格</th>
+		<td>art<span class="l1">y</span><span class="ending">lo</span></td>
+		<td>artux<span class="ending">ylo</span></td>
+	</tr>
+	<tr>
+		<th>副詞格</th>
+		<td>art<span class="l2">u</span><span class="ending">k</span></td>
+		<td>artux<span class="ending">ok</span></td>
+	</tr>
+	<tr>
+		<th>共格</th>
+		<td>art<span class="l3">o</span><span class="ending">sa</span></td>
+		<td>artux<span class="ending">as</span></td>
+	</tr>
+	<tr>
+		<th>位格</th>
+		<td>art<span class="l3">o</span><span class="ending">h</span></td>
+		<td>artux<span class="ending">eh</span></td>
+	</tr>
+	<tr>
+		<th>奪格</th>
+		<td>art<span class="l3">o</span><span class="ending">der</span></td>
+		<td>artux<span class="ending">eder</span></td>
+	</tr>
+	<tr>
+		<th>向格</th>
+		<td>art<span class="l3">o</span><span class="ending">ri</span></td>
+		<td>artux<span class="ending">eri</span></td>
+	</tr>
+	<tr>
+		<th>限格</th>
+		<td>art<span class="l3">o</span><span class="ending">ba</span></td>
+		<td>artux<span class="ending">eba</span></td>
+	</tr>
+</table>
+
 <h3>形容詞</h3>
+名詞の修飾に使うときは無変化，単体で使われるときは名詞の格変化に従う。
+<div data-gloss>
+	<p>gido-∅ ajxa-∅ do-ga oct-a.</p>
+	<p>大きい 太陽-ABS 私-ERG 見る-PRS</p>
+	<p>私は大きい太陽を見る。</p>
+</div>
+<div data-gloss>
+	<p>in artev-i gido beria-h xilt-o.</p>
+	<p>DET 賢い-ABS 大きい 街-LOC 住む-PRS
+	<p>賢い人が大きい街に住んでいる。</p>
+</div>
 <h3>副詞</h3>
 <h3>動詞</h3>
+<p>すべての動詞は現在語幹</p>
 <h2>統語</h2>
-</div>
+</span>
+<script src="https://cdn.jsdelivr.net/leipzig/latest/leipzig.min.js"></script>
+<script>
+  document.addEventListener('DOMContentLoaded', function() {
+    Leipzig().gloss();
+  });
+</script>
 </body>
 </html>

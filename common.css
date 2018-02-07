@@ -3,18 +3,79 @@
 	src: url("./cirlxarli_liparxe_1.woff"); format('woff');
 }
 
-.cirlipa {
-	font-family: "Cirlipa", sans-serif;
+@font-face {
+  font-family: GentiumPlusW;
+  src: url(./GentiumPlus-R.woff);
 }
 
-.latin {
-	font-family: sans-serif;
+@font-face {
+  font-family: GentiumPlusW;
+  font-style: italic;
+  src: url(./GentiumPlus-I.woff);
 }
 
-table, td, th, tr {
-	border: 2px solid black;
+body {
+}
+
+table {
 	border-collapse: collapse;
+	margin: 10px;
+}
+
+td, th, tr {
+	border: 1px dashed black;
 	padding-left: 10px;
 	padding-right: 10px;
 	text-align: center;
+	table-layout: auto;
 }
+
+th {
+	font-weight: normal;
+}
+
+.cirlipa {
+	font-family: "Cirlipa", serif;
+}
+
+.latin {
+	font-family: "GentiumPlusW", serif;
+}
+
+.ending {
+	color: crimson;
+}
+
+.stem {
+}
+
+.l1 {
+	color: #0000e0;
+}
+
+.l2 {
+	color: #0000e0;
+}
+
+.l3 {
+	color: #0000e0;
+}
+
+.l4 {
+	color: #0000e0;
+}
+
+.sentence {
+	border: 1px dashed black;
+	border-collapse: collapse;
+	text-align: left;
+}
+
+.word {
+	border: 1px none black;
+	border-collapse: collapse;
+	padding-left: 3px;
+	padding-right: 3px;
+	text-align: left;
+}
+

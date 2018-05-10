@@ -128,7 +128,7 @@
   }, {
     "entry" : {
       "id" : 10,
-      "form" : "aixa"
+      "form" : "ajxa"
     },
     "translations" : [ {
       "title" : "名詞",
@@ -232,7 +232,7 @@
   }, {
     "entry" : {
       "id" : 18,
-      "form" : "veva"
+      "form" : "veba"
     },
     "translations" : [ {
       "title" : "名詞",
@@ -258,7 +258,7 @@
   }, {
     "entry" : {
       "id" : 20,
-      "form" : "arto"
+      "form" : "alto"
     },
     "translations" : [ {
       "title" : "名詞",
@@ -609,7 +609,7 @@
   }, {
     "entry" : {
       "id" : 47,
-      "form" : "arteu"
+      "form" : "altean"
     },
     "translations" : [ {
       "title" : "形容詞",
@@ -622,7 +622,7 @@
   }, {
     "entry" : {
       "id" : 48,
-      "form" : "as"
+      "form" : "saj"
     },
     "translations" : [ {
       "title" : "動詞",
@@ -729,7 +729,7 @@
   }, {
     "entry" : {
       "id" : 56,
-      "form" : "exan"
+      "form" : "mekxaj"
     },
     "translations" : [ {
       "title" : "動詞",
@@ -755,7 +755,7 @@
   }, {
     "entry" : {
       "id" : 58,
-      "form" : "aloc"
+      "form" : "locaj"
     },
     "translations" : [ {
       "title" : "動詞",
@@ -768,7 +768,7 @@
   }, {
     "entry" : {
       "id" : 59,
-      "form" : "akol"
+      "form" : "koraj"
     },
     "translations" : [ {
       "title" : "動詞",
@@ -885,7 +885,7 @@
   }, {
     "entry" : {
       "id" : 68,
-      "form" : "amel"
+      "form" : "amelaj"
     },
     "translations" : [ {
       "title" : "動詞",
@@ -937,7 +937,7 @@
   }, {
     "entry" : {
       "id" : 72,
-      "form" : "oct"
+      "form" : "iraj"
     },
     "translations" : [ {
       "title" : "動詞",
@@ -1028,7 +1028,7 @@
   }, {
     "entry" : {
       "id" : 79,
-      "form" : "du"
+      "form" : "ado"
     },
     "translations" : [ {
       "title" : "代名詞",
@@ -1305,5 +1305,5 @@
       "relations" : [ ]
     }
   },
-  "snoj" : "@FALL_THROUGH\n\nPUNCTUATION = \".\" | \",\" | \"!\" | \"?\";\nvowel = \"a\" | \"e\" | \"i\" | \"o\" | \"u\" | \"y\";\ndiphthong = \"ai\" | \"au\" | \"ei\" | \"eu\" | \"oi\" | \"ou\";\nconsonant = \"p\" | \"b\" | \"t\" | \"d\" | \"k\" | \"g\" | \"v\" | \"c\" | \"s\" | \"x\" | \"dz\" | \"j\" | \"h\" | \"z\" | \"ds\" | \"tx\" | \"ddz\" | \"m\" | \"n\" | \"r\" | \"l\";\n\n\"v\" ^ -> /u/\nvowel \"v\" vowel -> $ /β/ $;\n\"hi\" -> /çi/;\n^ \"\" (vowel | diphthong) -> /ʔ/ $;\n\n\"ddz\" -> /d͡ʒ/;\n\n\"ai\" -> /ai̯/;\n\"au\" -> /au̯/;\n\"ei\" -> /eɪ̯/;\n\"eu\" -> /eu̯/;\n\"oi\" -> /oi̯/;\n\"ou\" -> /ou̯/;\n\n\"y\" -> /ə/;\n\n\"dz\" -> /ʒ/;\n\"ds\" -> /d͡z/;\n\"tx\" -> /t͡ʃ/;\n\n\"c\" -> /s/;\n\"s\" -> /z/;\n\"x\" -> /ʃ/;\n\"h\" -> /x/;\n\"z\" -> /t͡s/;\n\"r\" -> /ɾ/;"
+  "snoj" : "@FALL_THROUGH\n\nPUNCTUATION = \".\" | \",\" | \"!\" | \"?\";\nvowel = \"a\" | \"e\" | \"i\" | \"o\" | \"u\" | \"y\";\ndiphthong = \"ai\" | \"au\" | \"ei\" | \"eu\" | \"oi\" | \"ou\";\nconsonant = \"p\" | \"b\" | \"t\" | \"d\" | \"k\" | \"g\" | \"v\" | \"c\" | \"s\" | \"x\" | \"dz\" | \"j\" | \"h\" | \"z\" | \"ds\" | \"tx\" | \"ddz\" | \"m\" | \"n\" | \"r\" | \"l\";\n\n\"hi\" -> /çi/;\n^ \"\" (vowel | diphthong) -> /ʔ/ $;\n\n\"ddz\" -> /d͡ʒ/;\n\n\"ai\" -> /ai̯/;\n\"au\" -> /au̯/;\n\"ei\" -> /eɪ̯/;\n\"eu\" -> /eu̯/;\n\"oi\" -> /oi̯/;\n\"ou\" -> /ou̯/;\n\n\"v\" -> /w/;\n\"y\" -> /ə/;\n\n\"dz\" -> /ʒ/;\n\"ds\" -> /d͡z/;\n\"tx\" -> /t͡ʃ/;\n\n\"c\" -> /s/;\n\"s\" -> /z/;\n\"x\" -> /ʃ/;\n\"h\" -> /x/;\n\"z\" -> /t͡s/;\n\"r\" -> /ɾ/;"
 }
